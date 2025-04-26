@@ -32,7 +32,7 @@ fnirt --in=tFUS33_brain.nii.gz \
 
 We chose V5L in our case. You may choose your own ROI by checking the `$FSLDIR/data/atlases/Juelich.xml` for label index. 
 
-*Note: +1 from the original index in the `.xml` file. For example, V5L: 88 -> 89.*
+*Note: +1 from the original index in the `Juelich.xml` file. For example, V5L: 88 -> 89.*
 
 ```cmd
 fslmaths $FSLDIR/data/atlases/Juelich/Juelich-maxprob-thr25-1mm.nii.gz -thr 89 -uthr 89 -bin V5_L_standard.nii.gz
