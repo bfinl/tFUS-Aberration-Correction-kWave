@@ -1,4 +1,4 @@
-# kPR: A k-Wave based Phase-Reversal Methods for Skull Aberration Correction
+# kPR: A k-Wave based Phase-Reversal Method for tFUS Skull Aberration Correction
 
 kPR is a wave theory-informed k-Wave based phase-reversal method to tackle skull-induced aberrations for transcranial focused ultrasound (tFUS) applications. Follow the instructions below to estimate and apply phase delay values to a multi-element array transducer in k-Wave simulations.
 
@@ -13,13 +13,13 @@ Tested on Linux (Ubuntu 20.04.3 LTS, MATLAB R2021a) and on Windows 11 (MATLAB R2
   -  `./H275_3D_human_phase_estimation_local.m` 
   -  `./generate_source.mlx`
 
-- For GPU-accelerated simulations, you can consider using our compiled C++/CUDA binaries provided under `./k-Wave binaries/` (by replacing the original binaries provided in the k-Wave toolbox under `k-Wave/binaries/`) and select `model = 4`, which allows you to use single NVIDIA GPU up to the *Ada Lovelace* architecture (RTX 4000 series). In addition, you have the option of using the MATLAB GPU code by selecting `model = 2`.
+- For GPU-accelerated simulations, you can consider using our compiled C++/CUDA binaries provided under `./k-Wave binaries/` (by replacing the original binaries provided in the k-Wave toolbox under `k-Wave/binaries/`) and select `model = 4`, which allows you to use single NVIDIA GPU up to the *Ada Lovelace* architecture (RTX 40 series). In addition, you have the option of using the MATLAB GPU code by selecting `model = 2`.
 - *Note: we do not recommend using `model = 3` (compiled C++ code, CPU-only) since it is not widely tested by us.*
 
 ## Instructions
 
-1. Prepare subject head CT (or pCT) and MR data (preferably in `nifit` format otherwise you need to do conversion first). If you only have MR data of subjects, we recommend you follow the instructions under `./MR to pCT/` to convert it to pCT.
-2.  Follow the instructions under `./Brain MR Segmentation/` to obtain the segmented region of interest (V5L in our work). This would be used for quantitative evaluations and statistical calculations later on.
+1. Prepare subject head CT (or pseudo-CT) and MR data (preferably in `nifit` format otherwise you need to do conversion first). If you only have MR data of subjects, we recommend you follow the instructions under `./MR to pCT/` to convert it to pseudo-CT (pCT).
+2. Follow the instructions under `./Brain MR Segmentation/` to obtain the segmented region of interest (V5L in our work). This would be used for quantitative evaluations and statistical calculations later on.
 
 3. Use the `./skull_brain_visualization.mlx` script to visualize the skull (CT or pCT) and brain (MR) in a 3D space. Also, you can further determine the thresholding value for skull/brain binary mask generation using this script.
 
