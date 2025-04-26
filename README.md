@@ -8,7 +8,7 @@ Be advised, the codes are provided as a service to the scientific community and 
 
 Tested on Linux (Ubuntu 20.04.3 LTS, MATLAB R2021a) and on Windows 11 (MATLAB R2023a and R2024b). Works with both NVIDIA GPU and CPU-only platforms:
 
-- For CPU-only k-Wave simulations, you only need to use k-Wave ver 1.4 or higher and select `model = 1` under the DEFINE LITERALS sections in:
+- For CPU-only k-Wave simulations, you only need to use k-Wave ver 1.4 or higher ([download](http://www.k-wave.org/download.php)) and select `model = 1` under the DEFINE LITERALS sections in:
   - `./H275_3D_human_phase_correction.mlx`
   -  `./H275_3D_human_phase_estimation_local.m` 
   -  `./generate_source.mlx`
