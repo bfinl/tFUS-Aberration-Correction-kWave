@@ -47,4 +47,4 @@ This work was supported in part by National Institutes of Health grants R01NS124
 - **Bundled third-party code/compiled binaries** in:
   - `./k-Wave binaries/` — also under **LGPL v3**.
 
-All modifications you make to the LGPL’d parts stay under LGPL v3, and the BSD parts remain under BSD-3-Clause. 
+*Note: All modifications you make to the LGPL’d parts stay under LGPL v3.*
