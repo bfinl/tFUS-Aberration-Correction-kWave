@@ -56,19 +56,19 @@ invwarp -w tFUS33_T1_to_MNI_warpcoef.nii.gz \
 
 ```cmd
 applywarp --in=../V5_L_standard.nii.gz \
-    --ref=tFUS33_brain.nii.gz \
-    --out=tFUS33_V5_L_native.nii.gz \
-    --warp=tFUS33_MNI_to_T1_warpcoef.nii.gz
+        --ref=tFUS33_brain.nii.gz \
+        --out=tFUS33_V5_L_native.nii.gz \
+        --warp=tFUS33_MNI_to_T1_warpcoef.nii.gz
 ```
 
 ### Retain the T1 intensities (Case 2, for Kranion):
 
 ```cmd
 applywarp --in=../V5_L_standard.nii.gz \
-    --ref=tFUS33_brain.nii.gz \
-    --warp=tFUS33_MNI_to_T1_warpcoef.nii.gz \
-    --out=tFUS33_V5_L_native.nii.gz \
-    --interp=nn
+        --ref=tFUS33_brain.nii.gz \
+        --warp=tFUS33_MNI_to_T1_warpcoef.nii.gz \
+        --out=tFUS33_V5_L_native.nii.gz \
+        --interp=nn
 
 fslmaths tFUS33_brain.nii.gz -mul tFUS33_V5_L_native.nii.gz tFUS33_brain_V5_L_segmented.nii.gz
 ```
