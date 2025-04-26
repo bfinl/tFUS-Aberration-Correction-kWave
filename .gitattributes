@@ -1,0 +1,2 @@
+k-Wave[[:space:]]binaries/*.dll filter=lfs diff=lfs merge=lfs -text
+k-Wave[[:space:]]binaries/kspaceFirstOrder-CUDA filter=lfs diff=lfs merge=lfs -text
