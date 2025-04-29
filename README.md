@@ -1,14 +1,12 @@
 # kPR: A k-Wave based Phase-Reversal Method for tFUS Skull Aberration Correction
 
-## Overview Description
-
 Transcranial focused ultrasound (tFUS) offers significant promise for precise, non-invasive neuromodulation, with potential applications in treating neurological disorders and advancing neuroscience research. However, skull-induced acoustic aberrations critically hinder the effectiveness of tFUS by distorting focal precision and reducing the energy delivered to targeted brain regions.
 
 In this study, we introduce and validate a novel phase-reversal aberration correction method (kPR) designed specifically for a 128-element phased-array ultrasound transducer. Our approach employs individual head models derived from magnetic resonance (MR) data of 22 subjects and sophisticated k-Wave simulations to address these aberrations. Results show substantial improvements, including a 98.70% increase in overlap volume between the ultrasound focus and targeted brain region, a 14.36% reduction in axial positioning errors, a 21.53% decrease in focal peak positioning errors, and a 17.58% enhancement in targeted energy delivery compared to cases without correction. In addition, we demonstrate the superiority of our approach over traditional ray-based correction methods through comprehensive comparative analyses.
 
 This advancement significantly elevates the potential of tFUS for precise, personalized neuromodulation therapies, paving the way for safer, more effective clinical interventions and robust investigative neuroscience studies.
 
-The codes we share here are developed and evaluated in the following study, and is provided without warranty. Users should use at their own risks.
+The codes we share here are developed and evaluated in the following study, and is provided without warranty. Users should use at their own risks in accordance with the [licensing requirements](#license).
 
 > Z. Li, K. Yu, J. Kosnoff, and B. He, "Improving Targeting Specificity of Transcranial Focused Ultrasound in Humans Using a Random Array Transducer: A k-Wave Simulation Study," *bioRxiv*, 2025. DOI: 10.1101/2025.04.25.650630
 
