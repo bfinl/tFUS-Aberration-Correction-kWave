@@ -8,7 +8,7 @@ This advancement significantly elevates the potential of tFUS for precise, perso
 
 The codes we share here are developed and evaluated in the following study, and is provided without warranty. Users should use at their own risks in accordance with the [licensing requirements](#license).
 
-> Z. Li, K. Yu, J. Kosnoff, and B. He, "Improving Targeting Specificity of Transcranial Focused Ultrasound in Humans Using a Random Array Transducer: A k-Wave Simulation Study," *bioRxiv*, 2025. DOI: 10.1101/2025.04.25.650630
+> Z. Li, K. Yu, J. Kosnoff, and B. He, "Improving Targeting Specificity of Transcranial Focused Ultrasound in Subject Specific Head Models Using a Random Array Transducer: A k-Wave Simulation Study," *IEEE Access*, 2025. DOI: 10.1109/ACCESS.2025.3584245
 
 If you use our kPR method or any part of our codes in your own work, please acknowledge us by citing the above manuscript.
 
